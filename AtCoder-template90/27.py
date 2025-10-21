@@ -6,13 +6,11 @@ input = sys.stdin.readline  # 高速入力
 
 
 def solve():
-    n = int(input())
-    set_ = set()
-    for i in range(1, n + 1):
-        a = input()
-        if a not in set_:
-            set_.add(a)
-            print(i)
+    h, w = map(int, input().split())
+    a = (h + 1) // 2
+    b = (w + 1) // 2
+    ans = a * b
+    print(ans)
 
 
 if __name__ == "__main__":
