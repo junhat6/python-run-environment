@@ -17,3 +17,5 @@ def solve():
 
 if __name__ == "__main__":
     solve()
+
+# set重複がない検索が高速
